@@ -1,0 +1,68 @@
+Ejecutando UnitTests. Salida: C:\Users\darkm\OneDrive\Documents\AccountingLab\artifacts\student-debug-run\UnitTests\console.log
+Serie de pruebas para C:\Users\darkm\OneDrive\Documents\AccountingLab\tests\AccountingLab.UnitTests\bin\Debug\net8.0\AccountingLab.UnitTests.dll (.NETCoreApp,Version=v8.0)
+Versión 17.11.1 (x64) de VSTest
+
+Iniciando la ejecución de pruebas, espere...
+1 archivos de prueba en total coincidieron con el patrón especificado.
+Archivo de resultados: C:\Users\darkm\OneDrive\Documents\AccountingLab\artifacts\student-debug-run\UnitTests\results.trx
+
+Correctas! - Con error:     0, Superado:    93, Omitido:     0, Total:    93, Duración: 32 ms - AccountingLab.UnitTests.dll (net8.0)
+Ejecutando IntegrationTests. Salida: C:\Users\darkm\OneDrive\Documents\AccountingLab\artifacts\student-debug-run\IntegrationTests\console.log
+Serie de pruebas para C:\Users\darkm\OneDrive\Documents\AccountingLab\tests\AccountingLab.IntegrationTests\bin\Debug\net8.0\AccountingLab.IntegrationTests.dll (.NETCoreApp,Version=v8.0)
+Versión 17.11.1 (x64) de VSTest
+
+Iniciando la ejecución de pruebas, espere...
+1 archivos de prueba en total coincidieron con el patrón especificado.
+Archivo de resultados: C:\Users\darkm\OneDrive\Documents\AccountingLab\artifacts\student-debug-run\IntegrationTests\results.trx
+
+Correctas! - Con error:     0, Superado:    81, Omitido:     0, Total:    81, Duración: 8 s - AccountingLab.IntegrationTests.dll (net8.0)
+Ejecutando ArchitectureTests. Salida: C:\Users\darkm\OneDrive\Documents\AccountingLab\artifacts\student-debug-run\ArchitectureTests\console.log
+Serie de pruebas para C:\Users\darkm\OneDrive\Documents\AccountingLab\tests\AccountingLab.ArchitectureTests\bin\Debug\net8.0\AccountingLab.ArchitectureTests.dll (.NETCoreApp,Version=v8.0)
+Versión 17.11.1 (x64) de VSTest
+
+Iniciando la ejecución de pruebas, espere...
+1 archivos de prueba en total coincidieron con el patrón especificado.
+Archivo de resultados: C:\Users\darkm\OneDrive\Documents\AccountingLab\artifacts\student-debug-run\ArchitectureTests\results.trx
+
+Correctas! - Con error:     0, Superado:     6, Omitido:     0, Total:     6, Duración: 8 ms - AccountingLab.ArchitectureTests.dll (net8.0)
+Ejecutando PatternChallenges. Salida: C:\Users\darkm\OneDrive\Documents\AccountingLab\artifacts\student-debug-run\PatternChallenges\console.log
+Serie de pruebas para C:\Users\darkm\OneDrive\Documents\AccountingLab\tests\AccountingLab.PatternChallenges\bin\Debug\net8.0\AccountingLab.PatternChallenges.dll (.NETCoreApp,Version=v8.0)
+Versión 17.11.1 (x64) de VSTest
+
+Iniciando la ejecución de pruebas, espere...
+1 archivos de prueba en total coincidieron con el patrón especificado.
+Archivo de resultados: C:\Users\darkm\OneDrive\Documents\AccountingLab\artifacts\student-debug-run\PatternChallenges\results.trx
+
+Correctas! - Con error:     0, Superado:    66, Omitido:     0, Total:    66, Duración: 59 ms - AccountingLab.PatternChallenges.dll (net8.0)
+Ejecutando Integrity. Salida: C:\Users\darkm\OneDrive\Documents\AccountingLab\artifacts\student-debug-run\Integrity\console.log
+Integridad documental: comprobada. Modo entrega docente: False.
+Esta comprobación no ejecuta pruebas ni acredita ausencia de soluciones, corrección funcional o comprensión. La revisión docente sigue siendo necesaria.
+Ejecutando Frontend. Salida: C:\Users\darkm\OneDrive\Documents\AccountingLab\artifacts\student-debug-run\Frontend\console.log
+
+> accountinglab-web@1.0.0 test
+> vitest run --reporter=default --reporter=json --outputFile=C:\Users\darkm\OneDrive\Documents\AccountingLab\artifacts\student-debug-run\Frontend\results.json
+
+
+ RUN  v4.1.12 C:/Users/darkm/OneDrive/Documents/AccountingLab/frontend
+
+ ✓ src/test/api.test.ts (6 tests) 11ms
+ ✓ src/test/challengeAction.test.tsx (2 tests) 331ms
+ ✓ src/test/app.test.tsx (19 tests) 6272ms
+     ✓ conserva credenciales para corregir una respuesta 401 y no crea una sesión  606ms
+     ✓ envía las credenciales a la API y utiliza las empresas retornadas  718ms
+     ✓ cambia de empresa, limpia borradores y utiliza el nuevo encabezado  543ms
+     ✓ guarda una cuenta mediante POST y consulta la lista confirmada  513ms
+     ✓ muestra conflicto del servidor, mantiene la entrada y evita un éxito falso  307ms
+     ✓ rechaza un importe de cinco decimales sin enviar la operación  511ms
+     ✓ conserva el importe textual al registrar una obligación  742ms
+     ✓ respeta la página de datos y permite filtrar sin aparentar búsqueda global  353ms
+     ✓ muestra los 22 IDs proporcionados por la API y separa la autodeclaración de pruebas  637ms
+     ✓ envía líneas exactas y conserva el identificador al reintentar un fallo  831ms
+
+ Test Files  3 passed (3)
+      Tests  27 passed (27)
+   Start at  00:23:41
+   Duration  7.99s (transform 372ms, setup 1.06s, import 686ms, tests 6.61s, environment 2.35s)
+
+JSON report written to C:/Users/darkm/OneDrive/Documents/AccountingLab/artifacts/student-debug-run/Frontend/results.json
+Evidencia guardada en C:\Users\darkm\OneDrive\Documents\AccountingLab\artifacts\student-debug-run

@@ -1,0 +1,10 @@
+Serie de pruebas para C:\Users\darkm\OneDrive\Documents\AccountingLab\tests\AccountingLab.ArchitectureTests\bin\Release\net8.0\AccountingLab.ArchitectureTests.dll (.NETCoreApp,Version=v8.0)
+Versión 17.11.1 (x64) de VSTest
+
+Iniciando la ejecución de pruebas, espere...
+1 archivos de prueba en total coincidieron con el patrón especificado.
+[xUnit.net 00:00:00.18] Skipping: AccountingLab.ArchitectureTests (could not load dependent assembly 'AccountingLab.ArchitectureTests'): Could not load file or assembly 'C:\Users\darkm\OneDrive\Documents\AccountingLab\tests\AccountingLab.ArchitectureTests\bin\Release\net8.0\AccountingLab.ArchitectureTests.dll'. Una directiva de Control de aplicaciones bloqueó este archivo. (0x800711C7)
+No hay ninguna prueba disponible en C:\Users\darkm\OneDrive\Documents\AccountingLab\tests\AccountingLab.ArchitectureTests\bin\Release\net8.0\AccountingLab.ArchitectureTests.dll. Asegúrese de que los detectores y ejecutores de pruebas están registrados y de que la configuración de versión de la plataforma y de Framework es correcta y vuelva a intentarlo.
+Archivo de resultados: C:\Users\darkm\OneDrive\Documents\AccountingLab\reports\student\ArchitectureTests\results.trx
+
+Además, la ruta de acceso a los adaptadores de pruebas se puede especificar con el comando /TestAdapterPath. Ejemplo  /TestAdapterPath:<rutaAAdaptadoresPersonalizados>.

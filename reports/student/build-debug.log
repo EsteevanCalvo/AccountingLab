@@ -1,0 +1,14 @@
+  AccountingLab.Domain -> C:\Users\darkm\OneDrive\Documents\AccountingLab\src\AccountingLab.Domain\bin\Debug\net8.0\AccountingLab.Domain.dll
+  AccountingLab.Application -> C:\Users\darkm\OneDrive\Documents\AccountingLab\src\AccountingLab.Application\bin\Debug\net8.0\AccountingLab.Application.dll
+  AccountingLab.Infrastructure -> C:\Users\darkm\OneDrive\Documents\AccountingLab\src\AccountingLab.Infrastructure\bin\Debug\net8.0\AccountingLab.Infrastructure.dll
+  AccountingLab.Api -> C:\Users\darkm\OneDrive\Documents\AccountingLab\src\AccountingLab.Api\bin\Debug\net8.0\AccountingLab.Api.dll
+  AccountingLab.ArchitectureTests -> C:\Users\darkm\OneDrive\Documents\AccountingLab\tests\AccountingLab.ArchitectureTests\bin\Debug\net8.0\AccountingLab.ArchitectureTests.dll
+  AccountingLab.IntegrationTests -> C:\Users\darkm\OneDrive\Documents\AccountingLab\tests\AccountingLab.IntegrationTests\bin\Debug\net8.0\AccountingLab.IntegrationTests.dll
+  AccountingLab.PatternChallenges -> C:\Users\darkm\OneDrive\Documents\AccountingLab\tests\AccountingLab.PatternChallenges\bin\Debug\net8.0\AccountingLab.PatternChallenges.dll
+  AccountingLab.UnitTests -> C:\Users\darkm\OneDrive\Documents\AccountingLab\tests\AccountingLab.UnitTests\bin\Debug\net8.0\AccountingLab.UnitTests.dll
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:07.94

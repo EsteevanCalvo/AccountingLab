@@ -1,0 +1,353 @@
+{
+  "capturedAtUtc": "2026-11-24T05:22:29.052Z",
+  "readiness": "ready",
+  "openApiRoutes": 56,
+  "api": [
+    {
+      "id": "DP-01",
+      "route": "/api/challenges/DP-01/execute",
+      "status": 200,
+      "result": {
+        "id": "e9e17b2e-c77a-41fb-ba41-ec53150cba8f",
+        "companyId": "11111111-1111-1111-1111-111111111111",
+        "kind": "ingreso",
+        "amount": "100",
+        "currency": "COP"
+      }
+    },
+    {
+      "id": "DP-02",
+      "route": "/api/challenges/DP-02/execute",
+      "status": 200,
+      "result": {
+        "profile": "comercial",
+        "fictionalRegime": "DEMO-A",
+        "members": [
+          {
+            "role": "calculo",
+            "compatibilityKey": "comercial:DEMO-A"
+          },
+          {
+            "role": "validacion",
+            "compatibilityKey": "comercial:DEMO-A"
+          },
+          {
+            "role": "reporte",
+            "compatibilityKey": "comercial:DEMO-A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DP-03",
+      "route": "/api/challenges/DP-03/execute",
+      "status": 200,
+      "result": {
+        "title": "Informe educativo",
+        "from": "2026-01-01",
+        "to": "2026-12-31",
+        "sections": [
+          "Balance"
+        ],
+        "annexes": []
+      }
+    },
+    {
+      "id": "DP-04",
+      "route": "/api/challenges/DP-04/execute",
+      "status": 200,
+      "result": {
+        "id": "3aea034e-1a1e-4e19-aa02-78f96057abdb",
+        "name": "Plantilla de arriendo",
+        "lines": [
+          {
+            "accountCode": "5105",
+            "amount": "450",
+            "tags": [
+              "mensual"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "DP-05",
+      "route": "/api/challenges/DP-05/execute",
+      "status": 200,
+      "result": {
+        "version": "DEMO-1",
+        "monetaryScale": 4,
+        "scope": "process"
+      }
+    },
+    {
+      "id": "DP-06",
+      "route": "/api/challenges/DP-06/execute",
+      "status": 200,
+      "result": [
+        {
+          "externalId": "DEMO-1",
+          "date": "2026-01-12",
+          "description": "Pago",
+          "debit": "10.125",
+          "credit": "0",
+          "currency": "COP"
+        }
+      ]
+    },
+    {
+      "id": "DP-07",
+      "route": "/api/challenges/DP-07/execute",
+      "status": 200,
+      "result": {
+        "reportType": "balance",
+        "format": "csv",
+        "contentType": "text/csv",
+        "content": "reportType,amount\r\nbalance,100.0000\r\n"
+      }
+    },
+    {
+      "id": "DP-08",
+      "route": "/api/challenges/DP-08/execute",
+      "status": 200,
+      "result": "125"
+    },
+    {
+      "id": "DP-09",
+      "route": "/api/challenges/DP-09/execute",
+      "status": 200,
+      "result": {
+        "content": "Documento educativo\n[AUDIT]",
+        "appliedFeatures": [
+          "auditoria",
+          "metadatos"
+        ],
+        "metadata": {
+          "origen": "Ejemplo académico"
+        }
+      }
+    },
+    {
+      "id": "DP-10",
+      "route": "/api/challenges/DP-10/execute",
+      "status": 200,
+      "result": {
+        "companyId": "11111111-1111-1111-1111-111111111111",
+        "from": "2026-01-01",
+        "to": "2026-12-31",
+        "closed": true,
+        "totalDebit": "100",
+        "totalCredit": "100"
+      }
+    },
+    {
+      "id": "DP-11",
+      "route": "/api/challenges/DP-11/execute",
+      "status": 200,
+      "result": [
+        {
+          "id": "1cad5910-3c57-4a97-959f-d38029ab34f5",
+          "amount": "100",
+          "metadata": {
+            "code": "VENTA",
+            "label": "Venta",
+            "fictionalTaxScope": "DEMO-A"
+          }
+        },
+        {
+          "id": "b0707caa-1b7c-49be-a3e5-6d40b5cd9de9",
+          "amount": "25",
+          "metadata": {
+            "code": "VENTA",
+            "label": "Venta",
+            "fictionalTaxScope": "DEMO-A"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DP-12",
+      "route": "/api/challenges/DP-12/execute",
+      "status": 200,
+      "result": {
+        "companyId": "11111111-1111-1111-1111-111111111111",
+        "reportKey": "Balance",
+        "confidentialAmount": "0"
+      }
+    },
+    {
+      "id": "DP-13",
+      "route": "/api/challenges/DP-13/execute",
+      "status": 200,
+      "result": {
+        "approved": true,
+        "rejectedBy": null,
+        "visitedChecks": [
+          "fondos",
+          "politica",
+          "limite"
+        ]
+      }
+    },
+    {
+      "id": "DP-14",
+      "route": "/api/challenges/DP-14/execute",
+      "status": 200,
+      "result": {
+        "first": {
+          "operationId": "df33c40e-a8ed-49c7-9a9a-eaec91c367ac",
+          "targetId": "a3837004-ec88-4bb9-9820-b1550111cbd5",
+          "kind": "apply-receipt",
+          "appliedAmount": "100",
+          "remainingAmount": "100",
+          "linkedJournalEntryId": "fde1dc70-5834-4e0a-afdc-cfc5826d5711",
+          "replayed": false
+        },
+        "replay": {
+          "operationId": "df33c40e-a8ed-49c7-9a9a-eaec91c367ac",
+          "targetId": "a3837004-ec88-4bb9-9820-b1550111cbd5",
+          "kind": "apply-receipt",
+          "appliedAmount": "100",
+          "remainingAmount": "100",
+          "linkedJournalEntryId": "fde1dc70-5834-4e0a-afdc-cfc5826d5711",
+          "replayed": true
+        }
+      }
+    },
+    {
+      "id": "DP-15",
+      "route": "/api/challenges/DP-15/execute",
+      "status": 200,
+      "result": [
+        {
+          "entryCode": "DEMO-1",
+          "date": "2026-01-01",
+          "debit": "25",
+          "credit": "0"
+        },
+        {
+          "entryCode": "DEMO-2",
+          "date": "2026-01-02",
+          "debit": "0",
+          "credit": "25"
+        }
+      ]
+    },
+    {
+      "id": "DP-16",
+      "route": "/api/challenges/DP-16/execute",
+      "status": 200,
+      "result": {
+        "invoiceId": "98e726ef-8c9f-4f3b-8898-3abbadaebe2b",
+        "published": true,
+        "participantsInvoked": [
+          "validacion",
+          "contabilizacion",
+          "publicacion"
+        ]
+      }
+    },
+    {
+      "id": "DP-17",
+      "route": "/api/challenges/DP-17/execute",
+      "status": 200,
+      "result": {
+        "beforeRestore": {
+          "id": "fdf524b3-3a9b-4619-93de-b99825d5a254",
+          "name": "Borrador educativo",
+          "approved": false,
+          "lines": [
+            {
+              "accountCode": "5105",
+              "amount": "125"
+            }
+          ]
+        },
+        "restored": {
+          "id": "fdf524b3-3a9b-4619-93de-b99825d5a254",
+          "name": "Borrador educativo",
+          "approved": false,
+          "lines": [
+            {
+              "accountCode": "5105",
+              "amount": "100"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DP-18",
+      "route": "/api/challenges/DP-18/execute",
+      "status": 200,
+      "result": {
+        "recipients": [
+          "tesoreria"
+        ],
+        "deliveries": {
+          "tesoreria": {
+            "eventId": "f899e8fc-42c2-40d8-b0ed-ad9ad64a122f",
+            "kind": "pago-registrado",
+            "amount": "100"
+          }
+        }
+      }
+    },
+    {
+      "id": "DP-19",
+      "route": "/api/challenges/DP-19/execute",
+      "status": 200,
+      "result": {
+        "state": "issued",
+        "paymentAllowed": true
+      }
+    },
+    {
+      "id": "DP-20",
+      "route": "/api/challenges/DP-20/execute",
+      "status": 200,
+      "result": {
+        "baseAmount": "100",
+        "appliedRate": "0.1375",
+        "taxAmount": "13.75",
+        "ruleName": "DEMO-A"
+      }
+    },
+    {
+      "id": "DP-21",
+      "route": "/api/challenges/DP-21/execute",
+      "status": 200,
+      "result": {
+        "matches": [
+          {
+            "bankItemId": "B-1",
+            "ledgerItemId": "L-1",
+            "difference": "0.0001"
+          }
+        ],
+        "unmatchedBankItems": [],
+        "unmatchedLedgerItems": []
+      }
+    },
+    {
+      "id": "DP-22",
+      "route": "/api/challenges/DP-22/execute",
+      "status": 200,
+      "result": {
+        "totalAmount": "138",
+        "documentCount": 2,
+        "byKind": {
+          "invoice": "113",
+          "payment": "25"
+        }
+      }
+    }
+  ],
+  "browser": {
+    "cards": 22,
+    "login": "ok",
+    "route": "/accounts/tree-total",
+    "result": "999999999999999.1251",
+    "uncaughtErrors": []
+  }
+}

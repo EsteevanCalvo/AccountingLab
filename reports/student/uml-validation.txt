@@ -1,0 +1,22 @@
+DP-01 Factory Method — sintaxis aprobada
+DP-02 Abstract Factory — sintaxis aprobada
+DP-03 Builder — sintaxis aprobada
+DP-04 Prototype — sintaxis aprobada
+DP-05 Singleton — sintaxis aprobada
+DP-06 Adapter — sintaxis aprobada
+DP-07 Bridge — sintaxis aprobada
+DP-08 Composite — sintaxis aprobada
+DP-09 Decorator — sintaxis aprobada
+DP-10 Facade — sintaxis aprobada
+DP-11 Flyweight — sintaxis aprobada
+DP-12 Proxy — sintaxis aprobada
+DP-13 Chain of Responsibility — sintaxis aprobada
+DP-14 Command — sintaxis aprobada
+DP-15 Iterator — sintaxis aprobada
+DP-16 Mediator — sintaxis aprobada
+DP-17 Memento — sintaxis aprobada
+DP-18 Observer — sintaxis aprobada
+DP-19 State — sintaxis aprobada
+DP-20 Strategy — sintaxis aprobada
+DP-21 Template Method — sintaxis aprobada
+DP-22 Visitor — sintaxis aprobada

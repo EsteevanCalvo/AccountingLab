@@ -1,0 +1,8 @@
+MySQL
+8.0.46
+MigrationId	ProductVersion
+20261023054030_InitialAccounting	8.0.32
+20261124050604_AdvancedAccountingOperations	8.0.32
+COLUMN_NAME	COLUMN_TYPE
+AppliedAmount	decimal(19,4)
+RemainingAmount	decimal(19,4)

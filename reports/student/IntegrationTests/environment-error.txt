@@ -1,0 +1,1 @@
+Falta ConnectionStrings__AccountingLabTest para la base MySQL desechable, separada de la demostración.

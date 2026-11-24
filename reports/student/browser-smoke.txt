@@ -1,0 +1,1 @@
+22 ejemplos HTTP 200. Navegador autenticado, catálogo de 22 tarjetas y respuesta decimal exacta de DP-08.
